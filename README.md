@@ -1,8 +1,6 @@
 # Human Body Point Cloud Segmentation
 
-This repository is a fine-tuned version of [Unsupervised Learning for Cuboid Shape Abstraction via Joint Segmentation from Point Clouds](https://github.com/SilenKZYoung/CuboidAbstractionViaSeg.git) for Human body point cloud segmentation.
- for a human body point cloud segmentation model, designed to segment 3D human body point clouds into meaningful parts using a deep learning–based approach.
-The project focuses on cuboid abstraction via segmentation, enabling structured understanding of human body geometry from raw point cloud data.
+This repository is a fine-tuned version of [Unsupervised Learning for Cuboid Shape Abstraction via Joint Segmentation from Point Clouds](https://github.com/SilenKZYoung/CuboidAbstractionViaSeg.git), designed to segment 3D human body point clouds into meaningful parts using a deep learning–based approach. The project focuses on cuboid abstraction via segmentation, enabling structured understanding of human body geometry from raw point cloud data.
 
 ## Key Features
 
