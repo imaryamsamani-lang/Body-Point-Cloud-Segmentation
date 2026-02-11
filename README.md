@@ -31,30 +31,31 @@ Easy-to-extend architecture for research and experimentation
 The model is designed to process 3D point cloud inputs representing the human body and predict per-point segmentation labels.
 It can be used as a foundation for:
 
-Cuboid abstraction of human bodies
+ Cuboid abstraction of human bodies
 
-3D human pose or shape analysis
+ 3D human pose or shape analysis
 
-Robotics and embodied AI perception
+ Robotics and embodied AI perception
 
-3D scene understanding and animation pipelines
+ 3D scene understanding and animation pipelines
 
 ## Getting Started
-1. Clone the Repository
+### 1. Clone the Repository
    
 ```bash
 git clone https://github.com/SilenKZYoung/CuboidAbstractionViaSeg.git
 cd CuboidAbstractionViaSeg
 ```
 
-2. Environment Setup
+### 2. Environment Setup
 
-Make sure you have Python 3.8+ installed.
-Install the required dependencies (add or modify as needed):
+Install the required dependencies:
+Python 3.8.8.
+CUDA 10.2.
+PyTorch 1.5.1.
+TensorboardX for visualization of the training process.
 
-⚠️ If you use CUDA, ensure that your PyTorch version matches your CUDA setup.
-
-3. Dataset Preparation
+### 3. Dataset Preparation
 
 Place your point cloud data in the expected format.
 
@@ -62,7 +63,7 @@ You can refer to the samples/ directory for example input structure.
 
 Dataset loading and preprocessing logic can be found in dataloader.py.
 
-4. Weights
+### 4. Weights
 Download weights at: [weghts.pth](https://drive.google.com/file/d/18NoJFfL950TFZYxE8_JcAd9mlKSwI1o_/view?usp=sharing)
 
 ## Training
