@@ -17,7 +17,7 @@ Sample data provided for quick testing
 Easy-to-extend architecture for research and experimentation
 
 ## Repository Structure
-.
+```bash
 ├── dataloader.py    # Dataset loading and preprocessing
 ├── loss.py          # Custom loss functions for segmentation
 ├── model.py         # Network architecture definition
@@ -26,6 +26,7 @@ Easy-to-extend architecture for research and experimentation
 ├── utils.py         # Utility functions (metrics, helpers, etc.)
 ├── samples/         # Sample point cloud data
 ├── README.md        # Project documentation
+```
 
 ## Model Overview
 
