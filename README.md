@@ -100,6 +100,7 @@ Adding new datasets in dataloader.py
 
 Implementing new evaluation metrics in utils.py
 
+## Output Samples
 
 ![diagram](samples/sample1.png)
 ![diagram](samples/sample2.png)
