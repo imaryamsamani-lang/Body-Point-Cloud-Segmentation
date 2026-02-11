@@ -50,9 +50,13 @@ cd CuboidAbstractionViaSeg
 ### 2. Environment Setup
 
 Install the required dependencies:
+
 Python 3.8.8.
+
 CUDA 10.2.
+
 PyTorch 1.5.1.
+
 TensorboardX for visualization of the training process.
 
 ### 3. Dataset Preparation
